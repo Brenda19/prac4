@@ -1,0 +1,73 @@
+$Manzana=15;
+$Fresa=25;
+$Platano=16;
+$Melon=18;
+$Kiwi=30;
+$Subtotal=$Manzana+$Fresa+$Platano+$Melon+$Kiwi;
+
+$IVA=$Subtotal*.16;
+$Total=$Subtotal+$IVA;
+
+
+?>
+
+<html>
+<body>
+<table border="2"> 
+<tr>
+
+<td>Manzana</td>
+<td><?php echo ("$Manzana");
+?></td>
+</tr>
+
+<tr>
+<td>Fresa</td>
+<td><?php echo ("$Fresa");
+?></td>
+</tr>
+
+<tr>
+<td>Platano</td>
+<td><?php echo ("$Platano");
+?></td>
+</tr>
+
+<tr>
+<td>Melon</td>
+<td><?php echo ("$Melon");
+?></td>
+</tr>
+
+
+<tr>
+<td>Kiwi</td>
+<td><?php echo("$Kiwi");
+?></td>
+
+<tr>
+<td>Subtotal</td>
+<td><?php echo($Subtotal);
+?></td>
+
+
+<tr>
+<td>IVA</td>
+<td><?php echo($IVA);
+?></td>
+
+
+<tr>
+<td>Total</td>
+<td><?php echo($Total);
+?></td>
+</tr>
+
+
+<table>
+<body>
+<html>
+
+
+
+
